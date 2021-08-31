@@ -1,0 +1,39 @@
+.FatherClass {
+  margin-top: 50px;
+
+  width: 200px;
+  height: 300px;
+
+  background-color: rgb(218, 160, 36);
+  border-radius: 15px;
+  border: #f1f1f1 solid 1px;
+
+  display: inline-table;
+
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 10px #888888;
+}
+
+.FatherClass:hover {
+  filter: grayscale(0.5);
+}
+
+.FatherClass p {
+  font-size: 15px;
+}
+.FatherClass h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+}
+
+.ChildreClass {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+h1 {
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
