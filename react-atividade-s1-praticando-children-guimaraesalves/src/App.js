@@ -1,5 +1,6 @@
 import "./App.css";
-import CenteredCard from "./components/CenteredCard";
+import DatesCards from "./components/CenteredCard";
+//import CenteredCard from "./components/CenteredCard";
 
 function App() {
   const cookieNames = { a: "Maizena", b: "Cream Cracker", c: "Polvilho" };
@@ -13,30 +14,30 @@ function App() {
     <div className="App">
       <div classNames="App-header">
         <h1>🍪 Tabela Nutricional dos Biscoitos 🍪</h1>
-        <CenteredCard
+        <DatesCards
           nome={cookieNames.a}
           vlrEner={cookieCalorias.a}
           carb={cookieCarbo.a}
           prot={cookieProt.a}
           fibras={cookieFibras.a}
           sodio={cookieSodio.a}
-        ></CenteredCard>
-        <CenteredCard
+        ></DatesCards>
+        <DatesCards
           nome={cookieNames.b}
           vlrEner={cookieCalorias.b}
           carb={cookieCarbo.b}
           prot={cookieProt.b}
           fibras={cookieFibras.b}
           sodio={cookieSodio.b}
-        ></CenteredCard>
-        <CenteredCard
+        ></DatesCards>
+        <DatesCards
           nome={cookieNames.c}
           vlrEner={cookieCalorias.c}
           carb={cookieCarbo.c}
           prot={cookieProt.c}
           fibras={cookieFibras.c}
           sodio={cookieSodio.c}
-        ></CenteredCard>
+        ></DatesCards>
       </div>
     </div>
   );
