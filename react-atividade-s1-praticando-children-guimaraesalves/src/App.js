@@ -1,5 +1,5 @@
 import "./App.css";
-import DatesCards from "./components/CenteredCard";
+
 import CenteredCard from "./components/CenteredCard";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <div classNames="App-header">
         <h1>🍪 Tabela Nutricional dos Biscoitos 🍪</h1>
         <CenteredCard>
-          <h3>Maizena</h3>
+          <h1>Maizena</h1>
           <p>Valor energético: 19,40kcal</p>
           <p>Carboidratos: 3,14g</p>
           <p>Proteínas: 0,29g</p>
@@ -17,7 +17,7 @@ function App() {
         </CenteredCard>
 
         <CenteredCard>
-          <h3>Cream Cracker</h3>
+          <h1>Cream Cracker</h1>
           <p>Valor energético: 125Kcal</p>
           <p>Carboidratos: 21g</p>
           <p>Proteínas: 2,50g</p>
@@ -26,7 +26,7 @@ function App() {
         </CenteredCard>
 
         <CenteredCard>
-          <h3>Polvilho</h3>
+          <h1>Polvilho</h1>
           <p>Valor energético: 8,88Kcal</p>
           <p>Carboidratos: 1,68g</p>
           <p>Proteínas: 0,06g</p>

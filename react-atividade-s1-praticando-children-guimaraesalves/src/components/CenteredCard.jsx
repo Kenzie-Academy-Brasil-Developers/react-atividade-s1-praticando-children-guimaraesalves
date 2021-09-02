@@ -1,9 +1,9 @@
 import "./styles.css";
 
-function CenteredCard(children) {
+function CenteredCard(props) {
   return (
     <div className="FatherClass">
-      <span className="ChildreClass">{children}</span>
+      <span className="ChildreClass">{props.children}</span>
     </div>
   );
 }
